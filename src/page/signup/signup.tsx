@@ -70,9 +70,9 @@ class SignUp extends Component<any, any> {
     //a
     validateUsername = () => {
 
-        //let validation = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.state.username)
-        let validation = /[@]/gm.test(this.state.username);
-        this.setState({ errorUsername: !validation});
+        // let validation = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(this.state.username)
+        // let validation = /[@]/gm.test(this.state.username);
+        this.setState({ errorUsername: false});
 
     }
 
